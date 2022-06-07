@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Work+Sans:wght@300&display=swap");
+#logo {
+  width: 268px;
+  height: 35px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  display: flex;
+}
+.drop-menu {
+  display: none;
+}
+.menu-item {
+  margin-right: 10px;
+  list-style: none;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  cursor: pointer;
+}
+.dep:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: #747474;
+}
+
+.drop-menu-item {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.drop-menu-item:hover {
+  color: #00b39b;
+  background-color: #f6f8f8;
+}
+.menu-item:hover {
+  color: #00b39b;
+}
+.title {
+  text-align: center;
+}
+.title h1 {
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+}
+.Para {
+  display: flex;
+  width: 1015px;
+  margin: 0 auto;
+  font: 16px Roboto, Arial, sans-serif;
+  font-weight: 400px;
+  gap: 20px;
+  line-height: 1.75;
+}
+.Para p {
+  width: 45%;
+  color: #747474;
+}
+.service {
+  width: 1015px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.patient {
+  background-color: #00ccb1;
+}
+.doctor {
+  background-color: #3d83df;
+}
+.clinic {
+  background-color: #1b2734;
+}
+.service > div {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: white;
+  border-radius: 1rem;
+  padding: 32px 32px 0 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 345px;
+}
+.service h1 {
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+}
+.sous{
+    display: flex;
+    margin: 0 auto;
+    width: 1015px;
+}
+.arr2{
+    display: flex;
+
+}
+.arr1,.arr2{
+    width: 50%;
+}
+.arriere{ height: 600px;
+    background-color: #dff9f7;
+    background-image: url("https://www.docplanner.com/img/logo.png") ; 
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: 300px;
+
+}
+.arr2>div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 220px;
+    height: 186.8px;
+}
+.arr2>div>img{
+    height: 35px;
+    width: 40px;
+}
+.visit div{
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font: 34px;
+    text-align: center;
+}
+.visit p{
+  color:#747474;
+  font: 14px Roboto, Arial, sans-serif;
+  margin: 22.4px 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: .875em;
+  text-align: center;
+  font-weight: 400;
+}
+.global h1{
+  color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    float: left;
+    font-weight: 300;
+    letter-spacing: -.3px;
+  
+}
